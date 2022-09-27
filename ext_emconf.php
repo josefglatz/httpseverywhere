@@ -15,4 +15,7 @@ $EM_CONF[$_EXTKEY] = [
             'Josefglatz\\Httpseverywhere\\' => 'Classes/',
         ],
     ],
+    'author' => 'Josef Glatz',
+    'author_email' => 'typo3@josefglatz.at',
+    'author_company' => 'J18',
 ];
