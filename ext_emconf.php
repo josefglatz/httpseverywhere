@@ -9,6 +9,7 @@ $EM_CONF[$_EXTKEY] = [
         ],
     ],
     'version' => '1.0.0',
+    'state' => 'stable',
     'autoload' => [
         'psr-4' => [
             'Josefglatz\\Httpseverywhere\\' => 'Classes/',
