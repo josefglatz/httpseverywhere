@@ -1,0 +1,42 @@
+{
+    "name": "josefglatz/httpseverywhere",
+    "description": "Middleware for forcing HTTPS",
+    "repository": {
+        "url": "https://github.com/josefglatz/httpseverywhere.git"
+    },
+    "support": {
+        "issues": "https://github.com/josefglatz/httpseverywhere/issues",
+        "source": "https://github.com/josefglatz/httpseverywhere",
+        "docs": "https://docs.typo3.org/p/josefglatz/httpseverywhere/main/en-us/"
+    },
+    "authors": [
+        {
+            "name": "Josef Glatz",
+            "email": "typo3@josefglatz.at",
+            "role": "Developer",
+            "homepage": "https://www.josefglatz.at"
+        }
+    ],
+    "type": "typo3-cms-extension",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "php": "~8.0.0 || ~8.1.0",
+        "typo3/cms-core": "^11.5 || ^12.0"
+    },
+    "replace": {
+        "typo3-ter/httpseverywhere": "self.version"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Josefglatz\\Httpseverywhere\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "httpseverywhere"
+        }
+    }
+}
