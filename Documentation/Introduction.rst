@@ -16,9 +16,3 @@ If you open `http://mywebsite.at` in your browser the url is upgraded
 to `https://mywebsite.at` automatically.
 
 .. image:: /Images/DevtoolsOutputOfFunctionality.png
-
-
-Installation and Configuration
-==============================
-
-Just install the extension, clear your caches and you're done!

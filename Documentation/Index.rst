@@ -2,9 +2,9 @@
 
 .. _start:
 
-=======================
-TYPO3 extension ``tea``
-=======================
+===================================
+TYPO3 extension ``httpseverywhere``
+===================================
 
 :Extension key:
    httpseverywhere
@@ -46,6 +46,7 @@ with your TYPO3 instance.
    :titlesonly:
 
    Introduction
+   Installation
    Security
 
 .. Meta Menu
