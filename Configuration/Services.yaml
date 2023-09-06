@@ -5,4 +5,3 @@ services:
     public: false
   Josefglatz\Httpseverywhere\:
     resource: '../Classes/*'
-    exclude: '../Classes/Domain/Model/*'
