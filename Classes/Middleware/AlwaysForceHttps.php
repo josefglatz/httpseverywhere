@@ -16,8 +16,8 @@ class AlwaysForceHttps implements MiddlewareInterface
     {
         if (!$request->getAttribute('normalizedParams')->isHttps()) {
             $requestedUrl = $request->getAttribute('normalizedParams')->getRequestUrl();
-            if(str_contains($requestedUrl, "http://")) {
-                $requestUrl = str_replace("http://", "https://", $requestedUrl
+            if(str_contains($requestedUrl, 'http://')) {
+                $requestUrl = str_replace('http://', 'https://', $requestedUrl
                 );
 
                 return new RedirectResponse($requestUrl);
