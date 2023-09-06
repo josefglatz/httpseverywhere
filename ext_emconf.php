@@ -8,7 +8,7 @@ $EM_CONF[$_EXTKEY] = [
             'typo3' => '11.5.0-12.4.99',
         ],
     ],
-    'version' => '1.0.2',
+    'version' => '1.0.3',
     'state' => 'stable',
     'autoload' => [
         'psr-4' => [
